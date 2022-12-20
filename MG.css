@@ -1,0 +1,22 @@
+#grid{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+*{
+    font-family: sans-serif;
+}
+#game-container{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 10vh;
+}
+#score,#start{
+    margin-bottom: 1em;
+}
+#difficulty{
+    margin-bottom:1em;
+}
